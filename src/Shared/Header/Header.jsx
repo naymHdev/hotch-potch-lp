@@ -3,6 +3,7 @@ import { Dialog, Popover } from "@headlessui/react";
 import { FaBars } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import logo from "../../assets/ivy-removebg-preview.png";
+import Button from "../../Hooks/Button";
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -51,9 +52,7 @@ export default function Example() {
             <button className=" border rounded-md py-2 px-4 text-slate-50">
               Sign in
             </button>
-            <button className=" text-slate-50 bg-gradient-to-r from-[#3A54FE] via-purple-700 to-[#B02EFF] border-none rounded-md px-4 py-2">
-              Get Started Free
-            </button>
+            <Button content="Get Started Free" />
           </div>
         </div>
       </nav>
@@ -117,9 +116,7 @@ export default function Example() {
                   <button className=" border rounded-md py-2 px-4 text-slate-50">
                     Sign in
                   </button>
-                  <button className=" text-slate-50 bg-gradient-to-r from-[#3A54FE] via-purple-700 to-[#B02EFF] border-none rounded-md px-4 py-2">
-                    Get Started Free
-                  </button>
+                  <Button content="Get Started Free" />
                 </div>
               </div>
             </div>
