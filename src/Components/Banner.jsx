@@ -13,7 +13,7 @@ const Banner = () => {
             <h2 className="text-4xl mt-1 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#FA6939] to-[#FDC947]">
               Facebook Ads
             </h2>
-            <div className="absolute w-6/12 mx-auto inset-x-0 h-1 bg-gradient-to-r from-[#FA6939] to-[#FDC947]"></div>
+            <div className="absolute w-9/12 mx-auto inset-x-0 h-1 bg-gradient-to-r from-[#FA6939] to-[#FDC947]"></div>
           </div>
           <p className="text-sm font-medium text-slate-500 mt-5">
             Artificial intelligence writing tools you create blogs, <br />{" "}
