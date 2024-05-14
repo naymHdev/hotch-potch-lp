@@ -1,5 +1,6 @@
 import Banner from "../Components/Banner";
 import Company from "./Company";
+import ResultSecond from "./ResultSecond";
 import Results from "./Results";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Banner />
       <Company />
       <Results />
+      <ResultSecond />
     </>
   );
 };

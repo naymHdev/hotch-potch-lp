@@ -34,16 +34,18 @@ const Results = () => {
               </p>
               <p>Agitate: Sales tax is a complicated, confusing</p>
             </div>
-            <div className=" rounded-md bg-[#FFFFFF] p-5 shadow-md w-8/12 absolute top-[240px]  ml-[230px]">
-              <div className=" flex items-center">
-                <GoDotFill className=" text-red-500" />
-                <GoDotFill className=" text-yellow-400" />
-                <GoDotFill className=" text-green-500" />
+            <div className=" hidden md:flex">
+              <div className="rounded-md bg-[#FFFFFF] p-5 shadow-md w-8/12 absolute top-[240px]  ml-[230px]">
+                <div className=" flex items-center">
+                  <GoDotFill className=" text-red-500" />
+                  <GoDotFill className=" text-yellow-400" />
+                  <GoDotFill className=" text-green-500" />
+                </div>
+                <div className=" mt-5 border border-b-4 border-[#2B59FF] rounded-full w-2/12" />
+                <div className=" mt-6 border border-b-4 border-[#E1E3E8] rounded-full w-9/12" />
+                <div className=" mt-2 border border-b-4 border-[#E1E3E8] rounded-full w-8/12" />
+                <div className=" mt-2 border border-b-4 border-[#E1E3E8] rounded-full w-7/12" />
               </div>
-              <div className=" mt-5 border border-b-4 border-[#2B59FF] rounded-full w-2/12" />
-              <div className=" mt-6 border border-b-4 border-[#E1E3E8] rounded-full w-9/12" />
-              <div className=" mt-2 border border-b-4 border-[#E1E3E8] rounded-full w-8/12" />
-              <div className=" mt-2 border border-b-4 border-[#E1E3E8] rounded-full w-7/12" />
             </div>
           </div>
         </div>
