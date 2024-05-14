@@ -4,7 +4,7 @@ import Footer from "../Shared/Footer/Footer";
 
 const Layout = () => {
   return (
-    <div>
+    <div className="bg-[#1B1C21]">
       <Header />
       <div className=" min-h-screen">
         <Outlet />
