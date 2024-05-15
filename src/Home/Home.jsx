@@ -1,5 +1,6 @@
 import Banner from "../Components/Banner";
 import Company from "./Company";
+import CustomerFeedback from "./CustomerFeedback";
 import MixLand from "./MixLand";
 import ResultSecond from "./ResultSecond";
 import Results from "./Results";
@@ -14,6 +15,7 @@ const Home = () => {
       <ResultSecond />
       <WritingTools />
       <MixLand />
+      <CustomerFeedback />
       <div className=" pb-20"></div>
     </>
   );

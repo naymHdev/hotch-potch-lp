@@ -1,19 +1,16 @@
 import { toolsList } from "../Components/data";
 import { GiStabbedNote } from "react-icons/gi";
+import SectionTitle from "../Hooks/SectionTitle";
 
 const WritingTools = () => {
   return (
     <>
       <section className=" mt-20 w-11/12 mx-auto">
-        <div>
-          <h2 className=" text-3xl font-extrabold text-slate-50 text-center">
-            54 exciting writing tools
-          </h2>
-          <p className=" text-sm font-medium text-slate-500 text-center mt-2">
-            Ai engines take information from various sources and read <br />
-            them like a human would do.
-          </p>
-        </div>
+        <SectionTitle
+          title="54 exciting writing tools"
+          des="Ai engines take information from various sources and read
+            them like a human would do."
+        />
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-10">
           {toolsList?.map((blog) => (
             <div
@@ -35,7 +32,9 @@ const WritingTools = () => {
           ))}
         </div>
         <div className=" flex items-center justify-center mt-16">
-          <button className=" text-xl font-semibold text-slate-50">See ll 54 available tools</button>
+          <button className=" text-xl font-semibold text-slate-50">
+            See ll 54 available tools
+          </button>
         </div>
       </section>
     </>
