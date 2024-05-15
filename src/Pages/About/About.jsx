@@ -16,7 +16,7 @@ const About = () => {
           </div>
           <div className=" w-full">
             <h2 className=" font-thin text-4xl text-slate-100">
-              About WebWorks Wizards
+              About HotchPotch Ltd
             </h2>
             <div className="md:mt-[230px] mt-8">
               <p className=" text-slate-400">
@@ -48,7 +48,7 @@ const About = () => {
           <h4 className=" text-xl font-medium">Naym Hossen</h4>
           <p className=" font-serif mt-1">
             Chairman and CEO <br />
-            WWW
+            HPT
           </p>
         </div>
         <hr className="md:mt-14 mt-5" />
@@ -73,7 +73,7 @@ const About = () => {
         <div className="md:w-10/12 w-11/12 mx-auto mt-16 space-y-10 py-10 md:py-20">
           <h3 className=" text-6xl font-thin">Next steps</h3>
           <p className=" text-slate-400">
-            Get curated newsletters on the latest IBM technology and thought
+            Get curated newsletters on the latest HotchPotch and thought
             leadership delivered to your inbox.
           </p>
           <div>
