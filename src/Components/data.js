@@ -167,3 +167,42 @@ export const customerFeedback = [
     tag: "#postcrafts",
   },
 ];
+
+export const pricingDetails = [
+  {
+    id: 1,
+    plan: "Starter Plan",
+    price: 29,
+    description: "This package is suitable for teams 1-15 people.",
+    title: "What's included:",
+    point1: "10 GB Dedicated Hosting Free",
+    point2: "Best for Developers, Freelancers",
+    point3: "1 Year Support",
+    point4: "",
+    point5: "",
+  },
+  {
+    id: 2,
+    plan: "Basic Plan",
+    price: 79,
+    description: "This package is suitable for teams 1-50 people.",
+    title: "What's included:",
+    point1: "15 GB Dedicated Hosting Free",
+    point2: "Best for Developers, Freelancers",
+    point3: "5 Year Support",
+    point4: "Free Custom Domain",
+    point5: "Basic Statistics",
+  },
+  {
+    id: 3,
+    plan: "Premium Plan",
+    price: 129,
+    description: "This package is suitable for teams 1-100 people.",
+    title: "What's included:",
+    point1: "20 GB Dedicated Hosting Free",
+    point2: "Best for Developers, Freelancers",
+    point3: "Unlimited Support",
+    point4: "Free Custom Domain",
+    point5: "Full Statistics",
+  },
+];
