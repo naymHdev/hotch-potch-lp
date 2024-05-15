@@ -4,6 +4,7 @@ import { FaBars } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import logo from "../../assets/logo.png";
 import Button from "../../Hooks/Button";
+import { Link } from "react-router-dom";
 
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -15,10 +16,10 @@ export default function Example() {
         aria-label="Global"
       >
         <div className="flex px-8">
-          <a href="#" className="">
+          <Link to="/">
             <span className="sr-only">Your Company</span>
             <img className=" w-auto h-24" src={logo} alt="" />
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden px-8">
           <button
@@ -34,24 +35,24 @@ export default function Example() {
           <a href="#" className="text-sm font-medium leading-6 text-slate-50">
             Demos
           </a>
-          <a
-            href="/about"
+          <Link
+            to="/about"
             className="text-sm font-semibold leading-6 text-slate-50"
           >
             About
-          </a>
+          </Link>
           <a href="#" className="text-sm font-semibold leading-6 text-slate-50">
             Blog
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-slate-50">
             Pages
           </a>
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="text-sm font-semibold leading-6 text-slate-50"
           >
             Contact
-          </a>
+          </Link>
         </Popover>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <div className=" flex items-center gap-5">
