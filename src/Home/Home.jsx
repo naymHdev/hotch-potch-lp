@@ -20,7 +20,6 @@ const Home = () => {
       <CustomerFeedback />
       <Pricing />
       <Ads />
-      <div className=" pb-20"></div>
     </>
   );
 };
