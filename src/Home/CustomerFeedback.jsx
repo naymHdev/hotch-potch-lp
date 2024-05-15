@@ -5,14 +5,17 @@ import { FaTwitter } from "react-icons/fa";
 const CustomerFeedback = () => {
   return (
     <>
-      <section className=" mt-20 w-11/12 mx-auto">
+      <section className=" mt-20 w-10/12 mx-auto">
         <SectionTitle
           title="What our customer say"
           des="Read why thousands of marketers, writers, and entrepreneurs love us so much"
         />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-10">
           {customerFeedback?.map((feed) => (
-            <div key={feed?.id} className=" bg-white rounded-md p-5">
+            <div
+              key={feed?.id}
+              className=" bg-white rounded-md p-5 hover:cursor-pointer hover:shadow-xl h-fit"
+            >
               <div className=" flex justify-between">
                 <div className=" flex items-center justify-center gap-3">
                   <div className="avatar">
@@ -33,7 +36,12 @@ const CustomerFeedback = () => {
                   <FaTwitter className=" text-2xl text-sky-400" />
                 </div>
               </div>
-              
+              <div className=" mt-5">
+                <p className=" text-sm text-slate-700">{feed?.message}</p>
+                <p className=" mt-2 text-sky-400 text-sm font-mono">
+                  {feed?.tag}
+                </p>
+              </div>
             </div>
           ))}
         </div>
