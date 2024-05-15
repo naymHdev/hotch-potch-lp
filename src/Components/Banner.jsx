@@ -22,7 +22,7 @@ const Banner = () => {
           <div className=" mt-8">
             <Button content="Start 14 Days Free Trial" />
           </div>
-          <div className="flex mt-5 items-center text-slate-50 gap-3 justify-center">
+          <div className="flex hover:cursor-pointer mt-5 items-center text-slate-50 gap-3 justify-center">
             <FaPlayCircle className="text-xl" />
             <p className="text-xl font-semibold">Watch A Demo</p>
           </div>

@@ -42,9 +42,9 @@ const Results = () => {
                   <GoDotFill className=" text-green-500" />
                 </div>
                 <div className=" mt-5 border border-b-4 border-[#2B59FF] rounded-full w-2/12" />
-                <div className=" mt-6 border border-b-4 border-[#E1E3E8] rounded-full w-9/12" />
-                <div className=" mt-2 border border-b-4 border-[#E1E3E8] rounded-full w-8/12" />
-                <div className=" mt-2 border border-b-4 border-[#E1E3E8] rounded-full w-7/12" />
+                <div className=" mt-6 border border-b-4 border-[#E1E3E8] rounded-full w-11/12" />
+                <div className=" mt-3 border border-b-4 border-[#E1E3E8] rounded-full w-10/12" />
+                <div className=" mt-3 border border-b-4 border-[#E1E3E8] rounded-full w-9/12" />
               </div>
             </div>
           </div>
