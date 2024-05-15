@@ -1,4 +1,5 @@
 import Banner from "../Components/Banner";
+import Ads from "./Ads";
 import Company from "./Company";
 import CustomerFeedback from "./CustomerFeedback";
 import MixLand from "./MixLand";
@@ -18,6 +19,7 @@ const Home = () => {
       <MixLand />
       <CustomerFeedback />
       <Pricing />
+      <Ads />
       <div className=" pb-20"></div>
     </>
   );
