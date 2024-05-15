@@ -34,7 +34,10 @@ export default function Example() {
           <a href="#" className="text-sm font-medium leading-6 text-slate-50">
             Demos
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-slate-50">
+          <a
+            href="/about"
+            className="text-sm font-semibold leading-6 text-slate-50"
+          >
             About
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-slate-50">
@@ -43,7 +46,10 @@ export default function Example() {
           <a href="#" className="text-sm font-semibold leading-6 text-slate-50">
             Pages
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-slate-50">
+          <a
+            href="/contact"
+            className="text-sm font-semibold leading-6 text-slate-50"
+          >
             Contact
           </a>
         </Popover>
