@@ -5,7 +5,7 @@ import { GoDotFill } from "react-icons/go";
 const Results = () => {
   return (
     <>
-      <section className=" mt-20 grid md:flex gap-5 md:gap-40 w-11/12 mx-auto">
+      <section className=" mt-32 grid md:flex gap-5 md:gap-40 w-11/12 mx-auto">
         <div className=" rounded-md shadow-md bg-white border-none p-5 relative">
           <div>
             <h4 className=" text-xl font-bold">Results</h4>
