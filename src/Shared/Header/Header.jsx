@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Dialog, Popover } from "@headlessui/react";
 import { FaBars } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
-import logo from "../../assets/ivy-removebg-preview.png";
+import logo from "../../assets/logo.png";
 import Button from "../../Hooks/Button";
 
 export default function Example() {
