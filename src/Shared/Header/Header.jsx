@@ -31,7 +31,6 @@ export default function Example() {
             <FaBars className="h-6 w-6 text-slate-50" aria-hidden="true" />
           </button>
         </div>
-        <Popover className="hidden lg:flex lg:gap-x-5">
           <a href="#" className="text-sm font-medium leading-6 text-slate-50">
             Demos
           </a>
